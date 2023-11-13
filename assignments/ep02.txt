@@ -1,0 +1,34 @@
+1. npm is a package manager consisting of thousands of libraries for us to use.
+
+2. Parcel is a code bundler. It gives superpowers to the app! JK.. it bundles our code for production and comes with many benefits like HMR, Code splitting, Tree shaking etc..
+
+3. .parcel-cache --> stores info about the project for producing faster builds.
+
+4. npx is used to execute npm libraries.
+
+5. dependencies that are strictly required for development purposes are dev dependencies. Normal dependencies are required in the production build too.
+
+6. The method of removal of unused code (also known as dead code) is called tree shaking.
+
+7. HMR allows to automatically reload the page without needing to refresh the page manually.
+
+8. 5 superpowers of Parcel: 
+    i. HMR
+    ii. Local Server
+    iii. Image Optimisation
+    iii. Tree shaking
+    iv. Minification
+    v. Code splitting
+
+9. .gitignore ignores all the files that are included inside it.
+    Files that can be re-generated should be ignored as it will take up unnecessary space in our project.
+
+10. package.json keeps a track of the current and future versions of packages/libraries. While package-lock.json keeps track of current installed version of the package.
+
+11. To avoid build issues in production vs development.
+
+12. node_modules contains the code for all the dependencies/transitive dependencies. It is not a good idea to push it to github as it is huge and takes up unnecessary space.
+
+13. dist folder is the place for the dev/production ready build of the app.
+
+14. Browserlists allows the app to target specific versions of browser.

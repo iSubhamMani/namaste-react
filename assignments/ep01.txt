@@ -1,0 +1,18 @@
+1. Emmet is a tool used to speed up our coding process by content assist.
+
+2. The major difference between a Library and a Framework is Inversion of Control. 
+While libraries can work on even a small part of our code, frameworks provide a full fledged structure and have more control over the design aspects for our app.
+
+3. CDN stands for content delivery network. It is used to include code written by someone into our app.
+
+4. React is called React because it updates parts of the app without needing to reload the whole page and 'reacts' to changes actively.
+
+5. Cross origin in scripts is provided to fetch data from server from different domains.
+
+6. React is the library to build the front end of our application while ReactDOM allows React to interact with the DOM.
+
+7. react.dev -- for development purposes
+   react.prod -- for production purposes
+
+8. async in scripts ->  the script is fetched parallely with HTML parsing. And when the script is available, html parsing stops and script is executed first, then parsing resumes.
+   defer -> script is fetched parallely with html parsing, but execution is done once parsing finishes.

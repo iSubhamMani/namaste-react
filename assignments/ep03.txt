@@ -1,0 +1,7 @@
+1. JSX is a mix of JavaScript and HTML like syntax.
+2. JSX makes React code more readable and easier to write.
+3. type attr defines the type of the JS file.
+   Options that can be used are: 
+   i. module
+   ii. speculation rules
+   iii. import map
